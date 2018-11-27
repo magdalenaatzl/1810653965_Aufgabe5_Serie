@@ -9,8 +9,8 @@ public class Main {
     String eingabe = JOptionPane.showInputDialog("gib etwas ein");
 
     switch (eingabe){
-        case "20": JOptionPane.showMessageDialog(null, (Integer.parseInt(eingabe))*21);
-        case "Peter Pan": JOptionPane.showMessageDialog(null, "Bangarang");
+        case "20": JOptionPane.showMessageDialog(null, (Integer.parseInt(eingabe))*21);break;
+        case "Peter Pan": JOptionPane.showMessageDialog(null, "Bangarang");break;
         default: System.err.println("blablabla");
     }
 
