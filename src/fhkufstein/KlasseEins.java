@@ -9,11 +9,22 @@ public class KlasseEins {
            printName();
 
        }
+       int i = 0;
+       while (i<5){
+       printName();
+       printAge(21+i);
+       i++;
+       }
 
     }
 
     public static void printName()
     {
         System.out.println("Magdalena");
+    }
+    public static int printAge(int age)
+    {
+        System.out.println("Alter: "+age);
+        return age;
     }
 }
