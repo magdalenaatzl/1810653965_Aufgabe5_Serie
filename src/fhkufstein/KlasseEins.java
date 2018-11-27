@@ -1,5 +1,7 @@
 package fhkufstein;
 
+import static fhkufstein.Person.printPerson;
+
 public class KlasseEins {
     public static void main(String[] args) {
 
@@ -13,6 +15,7 @@ public class KlasseEins {
        while (i<5){
        printName();
        printAge(21+i);
+       printPerson();
        i++;
        }
 
